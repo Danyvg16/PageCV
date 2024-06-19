@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navegation{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: linear-gradient(to right, #c4948d, #e7b8b1, #f6e4e1);
+    justify-content:space-around; 
+}
+
+.navegation ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+}
+
+.navegation a{
+    color: black;
+    font-size: 19px;
+    margin: 0 15px;
+}
+
+.profile-description{
+    background-image: url(/img/background.jpg);
+}
+
+.profile-description img{
+    display: flex;
+    align-items: center;
+    margin: 0 auto 10px auto;
+}
+
+.name,.puesto, .intro{
+    text-align: center;
+    background-color: transparent;
+}
+
+.intro, li, p{
+    font-size: 19px;
+}
+
+.image-profile{
+    border-radius: 20px;
+    
+}
+   
+h2{
+    background-color: #f6e4e1;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+   
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+.data{
+    margin: 15px;
+}
+   
+ul,h4,p,.skills,h3,progress{
+    margin-left: 10px;
+}
+
+progress[value] {
+    width: 250px;
+         
+   /* Reinicializar estilos */
+   
+    appearance: none;
+    -webkit-appearance: none;
+}
+   
+progress[value]::-webkit-progress-bar {
+    background-color: #f0ccc4;
+}
+   
+progress[value]::-webkit-progress-value{
+    background-color: #986a63;
+}
+
+footer{
+    height: 20px;
+}
+   
